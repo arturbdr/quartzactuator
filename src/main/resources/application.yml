@@ -1,0 +1,23 @@
+quartz:
+  config:
+    dataSourceUrl: jdbc:mysql://local.docker:3306/jobStore
+    dataSourceUsername: root
+    dataSourcePassword: teste
+    dataSourceDriverClassName: com.mysql.jdbc.Driver
+
+# Config to enable security to Actuator endpoints
+management:
+  security:
+    enabled: true
+
+# Configurations for protecting access to actuator endpoints
+# If defined, Spring Security will not
+security:
+  user:
+    name: admin
+    password: pass
+
+# If the password above is not defined, Spring Security will log the password
+logging:
+  level:
+    org.springframework.boot: info

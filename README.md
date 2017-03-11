@@ -1,0 +1,1 @@
+Sample Spring Boot project to use Quartz in cluster mode (using MySql) as long as Spring Boot Actuator with spring Security 
