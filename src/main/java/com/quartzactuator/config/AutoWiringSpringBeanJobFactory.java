@@ -12,7 +12,6 @@ public final class AutoWiringSpringBeanJobFactory extends SpringBeanJobFactory i
     private transient AutowireCapableBeanFactory beanFactory;
 
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-
         beanFactory = applicationContext.getAutowireCapableBeanFactory();
     }
 

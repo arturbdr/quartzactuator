@@ -17,7 +17,7 @@ security:
     name: admin
     password: pass
 
-# If the password above is not defined, Spring Security will log the password
+# If the password above is not defined, Spring Security will not log the password
 logging:
   level:
     org.springframework.boot: info
